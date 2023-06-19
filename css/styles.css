@@ -11732,3 +11732,176 @@ html {
     left: -2vw;
   }
 }
+
+
+#logo{
+  border-radius: 50% 10%;
+}
+#titulo-inicio{
+  font-size: 80px;
+  color: #00b9ff;
+}
+.img-productos{
+  height: auto;
+  width: 150px;
+}
+.nombre-prodcuto{
+  font-size: 45px;
+  font-weight: bold;
+}
+.generación-producto{
+  font-size: 25px;
+}
+.diseño-precio-producto{
+  width: 70px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #FF8267;
+  color: white;
+}
+.diseño-descripcion-producto{
+  width: 120px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #67B3FF;
+  color:white;
+}
+.precio{
+  color: white;
+}
+.precio-producto{
+  font-size: 20px;
+  font-weight: bold;
+}
+.precio-producto span{
+  font-size: 12px;
+}
+.descripcion-producto{
+  font-size: 20px;
+}
+
+
+
+
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+}
+
+.img-productos {
+  transition: opacity 0.3s ease;
+}
+
+.contenedor-imagen:hover .img-productos{
+  opacity: 0.7;
+}
+
+.disponible {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: green;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contenedor-imagen:hover .disponible {
+  opacity: 1;
+}
+
+.titulo-oferta{
+  font-size: 40px;
+  font-weight: bold;
+}
+.container-oferta{
+  display: flex;
+  align-items: center;
+}
+
+.p-5{
+  flex: 1;
+}
+
+.img-oferta{
+  width: auto;
+  height: 360px;
+  margin-left: 10px;
+}
+
+.contenedor-precios-ofertas{
+  display: flex;
+  align-items: center;
+}
+.ofertas-izquierda{
+  flex:1;
+}
+.ofertas-derecha{
+  flex:2;
+}
+.antes{
+  width: 80px;
+  background-color: #FF8267;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.despues{
+  width: 110px;
+  background-color: #67B3FF;
+  color:white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.titulo-descripcion-oferta{
+  width: 150px;
+  background-color: #41F762;
+  color:white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.descripcion-oferta{
+  font-size: 18px;
+}
+
+
+
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+}
+
+.img-oferta {
+  transition: opacity 0.3s ease;
+}
+
+.contenedor-imagen:hover .img-oferta{
+  opacity: 0.3;
+}
+
+.oferta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  
+  padding: 10px 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contenedor-imagen:hover .oferta {
+  opacity: 1;
+}
+.texto-presentacion{
+  text-align: justify;
+}
